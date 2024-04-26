@@ -1,7 +1,7 @@
 import telebot as t
 from telebot import types as ty
 import art as a
-bot = t.TeleBot('6757281273:AAGGLOQBB-SnMi72ELu-CqVYw_-85sVOekk')
+bot = t.TeleBot('6757281273:AAEvohK2CS2RY2kPTCZbkP5ZQuMmRrXBqAY')
 a.tprint('BOT IS ONLINE')
 @bot.message_handler(commands=['start', 'main'])
 def physic(message):
