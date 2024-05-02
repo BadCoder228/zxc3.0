@@ -154,7 +154,7 @@ def call(call):
             cld77 = ty.InlineKeyboardMarkup(row_width=1)
             b777= ty.InlineKeyboardButton('Понятно', callback_data='cls:7')
             cld77.add(b777)
-            bot.send_message(call.message.chat.id, '~Коофицент полезного действия (КПД)~\n「η=A/Q, где:\n  |~η — непосредственно КПД\n  |~A — полезная работа\n  ↳~Q — затраченная энергия', reply_markup=cld77)
+            bot.send_message(call.message.chat.id, '~Коофицент полезного действия (КПД)~\n「η=A/Q, где:\n  |~η — непосредственно КПД\n  |~A — полезная работа(A=mgh)\n  ↳~Q — затраченная энергия(Q=Fl)', reply_markup=cld77)
             bot.delete_message(call.message.chat.id, call.message.message_id)
         elif call.data == 'cls:718':
             bot.edit_message_reply_markup(call.message.chat.id, call.message.message_id, reply_markup=None)
